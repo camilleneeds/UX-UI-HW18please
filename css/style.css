@@ -103,3 +103,22 @@ footer li {
 .content3 {
   grid-area: content3;
 }
+
+@media only screen and (max-width:600) {
+  .flex-container{
+    flex-direction: column; 
+    width: 100%;
+  }
+  #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "User Research"
+    "User Interface Design"
+    "Web Development"
+    ;
+  }
+
+}
