@@ -1,9 +1,10 @@
 body {
   margin: 0;
 }
+
 header {
   background-color: #d9c7af;
-  padding: 5px;
+  padding: 15px;
 }
 header ul {
   float: right;
@@ -20,6 +21,7 @@ header p {
   background-color: white;
   padding: 100px 15px;
 }
+
 .content {
   max-width: 300px;
   margin: 0 auto;
